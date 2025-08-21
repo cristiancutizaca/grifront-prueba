@@ -1,0 +1,29 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animated-fadeIno {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  
+
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animated-slideInLeftt {
+    animation: slideInLeft 2s ease-in-out;
+  }
