@@ -5,7 +5,7 @@ import ReportsFilters, { FilterState } from '../components/ReportsFilters';
 import SalesGeneralReport from '../components/reports/SalesGeneralReport';
 import SalesEmployeeReport from '../components/reports/SalesEmployeeReport';
 import InventoryReport from '../components/reports/InventoryReport';
-import CreditsReport from '../components/reports/CreditsReport';
+import CreditsReport from '../components/reports/CreditsReportsImproved';
 import FinancialReport from '../components/reports/FinancialReport';
 
 const ReportsPage: React.FC = () => {
